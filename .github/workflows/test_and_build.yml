@@ -70,6 +70,7 @@ jobs:
       - name: Integration test
         run: |
           go version
+          ls -l /opt/hostedtoolcache/go/
           make inttest
 
   build:
